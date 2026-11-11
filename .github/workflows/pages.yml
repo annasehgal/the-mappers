@@ -27,7 +27,7 @@ jobs:
           python-version: "3.12"
       - name: Read Pages URL
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Install build-only QR dependency
         run: python -m pip install -r assets/requirements-build.txt
       - name: Verify routing
