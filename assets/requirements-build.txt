@@ -1,0 +1,2 @@
+# Build-time QR generation only; the deployed app has no Python/backend dependency.
+qrcode==8.0

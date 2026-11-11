@@ -1,0 +1,317 @@
+entry,room,status
+holt-entry-a,101,Available
+holt-entry-a,101A,Door connection missing
+holt-entry-a,101B,Door connection missing
+holt-entry-a,101C,Door connection missing
+holt-entry-a,101D,Door connection missing
+holt-entry-a,101E,Door connection missing
+holt-entry-a,101F,Door connection missing
+holt-entry-a,102,Available
+holt-entry-a,104,Available
+holt-entry-a,106,Available
+holt-entry-a,108,Available
+holt-entry-a,110,Available
+holt-entry-a,112,Available
+holt-entry-a,114,Available
+holt-entry-a,116,Available
+holt-entry-a,118,Door connection missing
+holt-entry-a,120,Available
+holt-entry-a,111,Available
+holt-entry-a,113,Available
+holt-entry-a,115,Available
+holt-entry-a,117,Available
+holt-entry-a,119,Door connection missing
+holt-entry-a,121,Door connection missing
+holt-entry-a,123,Available
+holt-entry-a,125,Available
+holt-entry-a,125A,Door connection missing
+holt-entry-a,127,Door connection missing
+holt-entry-a,129,Available
+holt-entry-a,129A,Door connection missing
+holt-entry-a,129B,Door connection missing
+holt-entry-a,131,Door connection missing
+holt-entry-a,131A,Door connection missing
+holt-entry-a,131B,Door connection missing
+holt-entry-a,133,Available
+holt-entry-a,135,Door connection missing
+holt-entry-a,137,Door connection missing
+holt-entry-a,139A,Door connection missing
+holt-entry-a,141A,Door connection missing
+holt-entry-a,141B,Door connection missing
+holt-entry-a,141C,Door connection missing
+holt-entry-a,141,Door connection missing
+holt-entry-a,142,Door connection missing
+holt-entry-a,144,Available
+holt-entry-a,146,Available
+holt-entry-a,148,Available
+holt-entry-a,150,Available
+holt-entry-a,136,Available
+holt-entry-a,138,Available
+holt-entry-a,140,Door connection missing
+holt-entry-a,155,Available
+holt-entry-a,157,Available
+holt-entry-a,157A,Door connection missing
+holt-entry-a,159,Door connection missing
+holt-entry-a,161,Available
+holt-entry-a,163,Door connection missing
+holt-entry-a,165,Available
+holt-entry-a,165A,Door connection missing
+holt-entry-a,167,Door connection missing
+holt-entry-a,169,Door connection missing
+holt-entry-a,170,Door connection missing
+holt-entry-a,170A,Available
+holt-entry-a,170B,Door connection missing
+holt-entry-a,172,Door connection missing
+holt-entry-a,171,Door connection missing
+holt-entry-a,171A,Door connection missing
+holt-entry-a,173,Available
+holt-entry-a,173A,Door connection missing
+holt-entry-a,175,Available
+holt-entry-a,175A,Door connection missing
+holt-entry-a,177,Door connection missing
+holt-entry-a,179,Available
+holt-entry-a,181,Available
+holt-entry-a,183,Available
+holt-entry-a,185,Available
+holt-entry-a,185A,Door connection missing
+holt-entry-a,187,Available
+holt-entry-a,187A,Door connection missing
+holt-entry-a,189,Available
+holt-entry-a,189A,Door connection missing
+holt-entry-b,101,Available
+holt-entry-b,101A,Door connection missing
+holt-entry-b,101B,Door connection missing
+holt-entry-b,101C,Door connection missing
+holt-entry-b,101D,Door connection missing
+holt-entry-b,101E,Door connection missing
+holt-entry-b,101F,Door connection missing
+holt-entry-b,102,Available
+holt-entry-b,104,Available
+holt-entry-b,106,Available
+holt-entry-b,108,Available
+holt-entry-b,110,Available
+holt-entry-b,112,Available
+holt-entry-b,114,Available
+holt-entry-b,116,Available
+holt-entry-b,118,Door connection missing
+holt-entry-b,120,Available
+holt-entry-b,111,Available
+holt-entry-b,113,Available
+holt-entry-b,115,Available
+holt-entry-b,117,Available
+holt-entry-b,119,Door connection missing
+holt-entry-b,121,Door connection missing
+holt-entry-b,123,Available
+holt-entry-b,125,Available
+holt-entry-b,125A,Door connection missing
+holt-entry-b,127,Door connection missing
+holt-entry-b,129,Available
+holt-entry-b,129A,Door connection missing
+holt-entry-b,129B,Door connection missing
+holt-entry-b,131,Door connection missing
+holt-entry-b,131A,Door connection missing
+holt-entry-b,131B,Door connection missing
+holt-entry-b,133,Available
+holt-entry-b,135,Door connection missing
+holt-entry-b,137,Door connection missing
+holt-entry-b,139A,Door connection missing
+holt-entry-b,141A,Door connection missing
+holt-entry-b,141B,Door connection missing
+holt-entry-b,141C,Door connection missing
+holt-entry-b,141,Door connection missing
+holt-entry-b,142,Door connection missing
+holt-entry-b,144,Available
+holt-entry-b,146,Available
+holt-entry-b,148,Available
+holt-entry-b,150,Available
+holt-entry-b,136,Available
+holt-entry-b,138,Available
+holt-entry-b,140,Door connection missing
+holt-entry-b,155,Available
+holt-entry-b,157,Available
+holt-entry-b,157A,Door connection missing
+holt-entry-b,159,Door connection missing
+holt-entry-b,161,Available
+holt-entry-b,163,Door connection missing
+holt-entry-b,165,Available
+holt-entry-b,165A,Door connection missing
+holt-entry-b,167,Door connection missing
+holt-entry-b,169,Door connection missing
+holt-entry-b,170,Door connection missing
+holt-entry-b,170A,Available
+holt-entry-b,170B,Door connection missing
+holt-entry-b,172,Door connection missing
+holt-entry-b,171,Door connection missing
+holt-entry-b,171A,Door connection missing
+holt-entry-b,173,Available
+holt-entry-b,173A,Door connection missing
+holt-entry-b,175,Available
+holt-entry-b,175A,Door connection missing
+holt-entry-b,177,Door connection missing
+holt-entry-b,179,Available
+holt-entry-b,181,Available
+holt-entry-b,183,Available
+holt-entry-b,185,Available
+holt-entry-b,185A,Door connection missing
+holt-entry-b,187,Available
+holt-entry-b,187A,Door connection missing
+holt-entry-b,189,Available
+holt-entry-b,189A,Door connection missing
+holt-entry-c,101,Available
+holt-entry-c,101A,Door connection missing
+holt-entry-c,101B,Door connection missing
+holt-entry-c,101C,Door connection missing
+holt-entry-c,101D,Door connection missing
+holt-entry-c,101E,Door connection missing
+holt-entry-c,101F,Door connection missing
+holt-entry-c,102,Available
+holt-entry-c,104,Available
+holt-entry-c,106,Available
+holt-entry-c,108,Available
+holt-entry-c,110,Available
+holt-entry-c,112,Available
+holt-entry-c,114,Available
+holt-entry-c,116,Available
+holt-entry-c,118,Door connection missing
+holt-entry-c,120,Available
+holt-entry-c,111,Available
+holt-entry-c,113,Available
+holt-entry-c,115,Available
+holt-entry-c,117,Available
+holt-entry-c,119,Door connection missing
+holt-entry-c,121,Door connection missing
+holt-entry-c,123,Available
+holt-entry-c,125,Available
+holt-entry-c,125A,Door connection missing
+holt-entry-c,127,Door connection missing
+holt-entry-c,129,Available
+holt-entry-c,129A,Door connection missing
+holt-entry-c,129B,Door connection missing
+holt-entry-c,131,Door connection missing
+holt-entry-c,131A,Door connection missing
+holt-entry-c,131B,Door connection missing
+holt-entry-c,133,Available
+holt-entry-c,135,Door connection missing
+holt-entry-c,137,Door connection missing
+holt-entry-c,139A,Door connection missing
+holt-entry-c,141A,Door connection missing
+holt-entry-c,141B,Door connection missing
+holt-entry-c,141C,Door connection missing
+holt-entry-c,141,Door connection missing
+holt-entry-c,142,Door connection missing
+holt-entry-c,144,Available
+holt-entry-c,146,Available
+holt-entry-c,148,Available
+holt-entry-c,150,Available
+holt-entry-c,136,Available
+holt-entry-c,138,Available
+holt-entry-c,140,Door connection missing
+holt-entry-c,155,Available
+holt-entry-c,157,Available
+holt-entry-c,157A,Door connection missing
+holt-entry-c,159,Door connection missing
+holt-entry-c,161,Available
+holt-entry-c,163,Door connection missing
+holt-entry-c,165,Available
+holt-entry-c,165A,Door connection missing
+holt-entry-c,167,Door connection missing
+holt-entry-c,169,Door connection missing
+holt-entry-c,170,Door connection missing
+holt-entry-c,170A,Available
+holt-entry-c,170B,Door connection missing
+holt-entry-c,172,Door connection missing
+holt-entry-c,171,Door connection missing
+holt-entry-c,171A,Door connection missing
+holt-entry-c,173,Available
+holt-entry-c,173A,Door connection missing
+holt-entry-c,175,Available
+holt-entry-c,175A,Door connection missing
+holt-entry-c,177,Door connection missing
+holt-entry-c,179,Available
+holt-entry-c,181,Available
+holt-entry-c,183,Available
+holt-entry-c,185,Available
+holt-entry-c,185A,Door connection missing
+holt-entry-c,187,Available
+holt-entry-c,187A,Door connection missing
+holt-entry-c,189,Available
+holt-entry-c,189A,Door connection missing
+holt-entry-d,101,Available
+holt-entry-d,101A,Door connection missing
+holt-entry-d,101B,Door connection missing
+holt-entry-d,101C,Door connection missing
+holt-entry-d,101D,Door connection missing
+holt-entry-d,101E,Door connection missing
+holt-entry-d,101F,Door connection missing
+holt-entry-d,102,Available
+holt-entry-d,104,Available
+holt-entry-d,106,Available
+holt-entry-d,108,Available
+holt-entry-d,110,Available
+holt-entry-d,112,Available
+holt-entry-d,114,Available
+holt-entry-d,116,Available
+holt-entry-d,118,Door connection missing
+holt-entry-d,120,Available
+holt-entry-d,111,Available
+holt-entry-d,113,Available
+holt-entry-d,115,Available
+holt-entry-d,117,Available
+holt-entry-d,119,Door connection missing
+holt-entry-d,121,Door connection missing
+holt-entry-d,123,Available
+holt-entry-d,125,Available
+holt-entry-d,125A,Door connection missing
+holt-entry-d,127,Door connection missing
+holt-entry-d,129,Available
+holt-entry-d,129A,Door connection missing
+holt-entry-d,129B,Door connection missing
+holt-entry-d,131,Door connection missing
+holt-entry-d,131A,Door connection missing
+holt-entry-d,131B,Door connection missing
+holt-entry-d,133,Available
+holt-entry-d,135,Door connection missing
+holt-entry-d,137,Door connection missing
+holt-entry-d,139A,Door connection missing
+holt-entry-d,141A,Door connection missing
+holt-entry-d,141B,Door connection missing
+holt-entry-d,141C,Door connection missing
+holt-entry-d,141,Door connection missing
+holt-entry-d,142,Door connection missing
+holt-entry-d,144,Available
+holt-entry-d,146,Available
+holt-entry-d,148,Available
+holt-entry-d,150,Available
+holt-entry-d,136,Available
+holt-entry-d,138,Available
+holt-entry-d,140,Door connection missing
+holt-entry-d,155,Available
+holt-entry-d,157,Available
+holt-entry-d,157A,Door connection missing
+holt-entry-d,159,Door connection missing
+holt-entry-d,161,Available
+holt-entry-d,163,Door connection missing
+holt-entry-d,165,Available
+holt-entry-d,165A,Door connection missing
+holt-entry-d,167,Door connection missing
+holt-entry-d,169,Door connection missing
+holt-entry-d,170,Door connection missing
+holt-entry-d,170A,Available
+holt-entry-d,170B,Door connection missing
+holt-entry-d,172,Door connection missing
+holt-entry-d,171,Door connection missing
+holt-entry-d,171A,Door connection missing
+holt-entry-d,173,Available
+holt-entry-d,173A,Door connection missing
+holt-entry-d,175,Available
+holt-entry-d,175A,Door connection missing
+holt-entry-d,177,Door connection missing
+holt-entry-d,179,Available
+holt-entry-d,181,Available
+holt-entry-d,183,Available
+holt-entry-d,185,Available
+holt-entry-d,185A,Door connection missing
+holt-entry-d,187,Available
+holt-entry-d,187A,Door connection missing
+holt-entry-d,189,Available
+holt-entry-d,189A,Door connection missing

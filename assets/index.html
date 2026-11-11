@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+ <title>Holt Hall · Indoor navigation</title>
+ <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="mobile.css">
+ <script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/":"./vendor/"}}</script>
+</head>
+<body><main>
+ <header>
+  <small>Chico State <span>Holt Hall · Floor 1</span></small>
+  <label for="search" class="sr">Search destinations</label>
+  <input id="search" placeholder="Find a room or place" type="search">
+  <div id="results" aria-live="polite"></div>
+  <label for="category" class="sr">Destination category</label>
+  <select id="category"><option value="">All destinations</option><option value="room">Rooms · use unspecified</option><option value="restroom">Restrooms</option><option value="entrance">Entrances & exits</option><option value="stairs">Stairs</option><option value="elevator">Elevator</option><option value="vending">Vending</option><option value="landmark">Hallway landmarks</option></select>
+ </header>
+ <div id="map" aria-label="Interactive Holt Hall first-floor map"></div>
+ <nav aria-label="Map controls">
+  <button id="mode" aria-label="Switch 2D or 3D">3D</button>
+  <button id="plus" aria-label="Zoom in">+</button><button id="minus" aria-label="Zoom out">−</button>
+  <button id="recenter" aria-label="Recenter navigation">◎</button>
+  <button id="checkpoints" aria-label="Toggle hallway checkpoints" aria-pressed="true">●</button>
+ </nav>
+ <section id="sheet">
+  <button id="expand" aria-expanded="false" aria-label="Expand navigation settings">Route options</button>
+  <div class="sheet-heading"><h1 id="title">Choose where to begin</h1><span class="demo-badge">Simulation</span></div>
+  <div class="instruction"><span id="direction" aria-hidden="true">⌖</span><p id="status" role="status">Loading floor map…</p></div>
+  <p id="checkpoint">No starting position selected</p>
+  <progress id="progress" value="0" max="1" aria-label="Simulated route progress"></progress>
+  <p id="metrics"></p>
+  <label for="start">Current starting location</label>
+  <div class="start-row"><select id="start"><option value="">Choose a starting location</option></select><button id="pick" aria-pressed="false">Tap map</button></div>
+  <div id="details" hidden>
+   <p id="entry-note">Simulation only. QR codes set an initial point; no live positioning.</p>
+   <label class="check"><input id="accessible" type="checkbox"> Verified accessible routes only</label>
+   <p id="access-note">Accessible routing is not available yet. Exit symbols are shown as recorded on the floor plan.</p>
+   <div class="legend">Blue: current · Amber: destination · Green: entrance · Cyan ring: exit accessibility symbol · Gray: checkpoint</div>
+   <ol id="instructions"></ol>
+   <button id="source">Source plan</button><button id="fit">Entire floor</button><a href="qr.html">QR locations</a>
+  </div>
+  <div class="audio-controls"><button id="audio" aria-pressed="true">Audio on</button><button id="replay" disabled>Replay</button><button id="pause" hidden>Pause</button><button id="restart" hidden>Restart</button></div>
+  <button id="go" class="primary" disabled>Start simulation</button><button id="reset">Reset</button>
+ </section>
+ <dialog id="location-dialog">
+  <h2 id="location-title">Confirm location</h2><p id="location-note"></p>
+  <button id="confirm-start" class="primary">Set as my start</button>
+  <button id="confirm-destination">Set as destination</button><button id="cancel-location">Cancel</button>
+ </dialog>
+</main><script type="module" src="app.js"></script></body></html>

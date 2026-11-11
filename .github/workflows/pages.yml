@@ -1,0 +1,57 @@
+name: Holt Hall Pages (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: "Publish this build to GitHub Pages (leave off to build only)"
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+concurrency:
+  group: holt-hall-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Read Pages URL
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Install build-only QR dependency
+        run: python -m pip install -r assets/requirements-build.txt
+      - name: Verify routing
+        working-directory: assets
+        run: node verify.mjs
+      - name: Package static application
+        env:
+          PAGES_BASE_URL: ${{ steps.pages.outputs.base_url }}
+        run: node assets/scripts/build-pages.mjs
+      - name: Upload Pages package
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: assets/dist
+  deploy:
+    if: ${{ inputs.publish }}
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy only after explicit manual opt-in
+        id: deployment
+        uses: actions/deploy-pages@v4
